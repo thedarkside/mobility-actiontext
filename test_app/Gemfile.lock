@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/thedarkside/mobility.git
+  revision: 77a2911fe78625b7d29b69befbc3b4b1a05f1289
+  specs:
+    mobility (1.1.3)
+      i18n (>= 0.6.10, < 2)
+      request_store (~> 1.0)
+
 PATH
   remote: ..
   specs:
@@ -92,9 +100,6 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.1)
     minitest (5.14.4)
-    mobility (1.1.3)
-      i18n (>= 0.6.10, < 2)
-      request_store (~> 1.0)
     nio4r (2.5.8)
     nokogiri (1.12.3-x86_64-darwin)
       racc (~> 1.4)
@@ -183,7 +188,7 @@ DEPENDENCIES
   byebug
   jbuilder (~> 2.7)
   listen (~> 3.3)
-  mobility (~> 1.1.3)
+  mobility!
   mobility-actiontext!
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
